@@ -1,13 +1,10 @@
-import reactLogo from './assets/react.svg'
-import './App.css'
+import Profile from './Profile'
 
-function App() {
+export default function App() {
 
   return (
     <>
-      <img className="logo" src={reactLogo} alt="" />
+      <Profile />
     </>
   )
 }
-
-export default App
