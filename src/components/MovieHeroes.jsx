@@ -7,7 +7,7 @@ const heroes = [
 ]
 
 export default function MovieHeroes() {
-    const listHeroes = heroes.map(hero => <li>{hero}</li>);
+    const listHeroes = heroes.map(hero => <li key={hero}>{hero}</li>);
     return(
         <>
             <section>
