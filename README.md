@@ -19,9 +19,9 @@
 코드블럭
 ```
 
-``` javascript
+```react
 export default function App() {
-  return(
+  return (
     <>
       안녕하세요
     </>
