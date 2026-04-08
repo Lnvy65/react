@@ -19,7 +19,7 @@
 코드블럭
 ```
 
-``` react
+``` javascript
 export default function App() {
   return(
     <>
