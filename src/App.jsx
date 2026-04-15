@@ -5,6 +5,7 @@
 // import SpreadComp from "./components/SpreadComp"
 //import MovieHeroes from "./components/MovieHeroes"
 import Kiosk from "./components/Kiosk"
+import TeaSet from "./components/TeaSet"
 
 export default function App() {
   
@@ -16,6 +17,7 @@ export default function App() {
       <SpreadComp /> */}
       {/* <MovieHeroes /> */}
       <Kiosk />
+      <TeaSet />
     </>
   )
 }
