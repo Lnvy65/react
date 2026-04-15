@@ -2,10 +2,10 @@ import heroes from './HeroesData';
 
 export default function MovieHeroes() {
     const filterTests = heroes.filter( hero =>
-        hero.name === "클라크 켄트"
+        hero.power === 5
     );
     const listHeroes = filterTests.map( hero => 
-        <li>
+        <li key={hero.id}>
             <p>
                 {hero.name}의 배역은 {hero.casting} 입니다.
             </p>
