@@ -7,11 +7,15 @@ function Cup({guest}){
 }
 
 export default function TeaSet() {
+
+    const cups = [];
+    for(let i = 1; i <= 12; i++){
+        cups.push(<Cup guest={i} key={i} />);
+    }
+
     return(
         <>
-            <Cup guest={1} />
-            <Cup guest={2} />
-            <Cup guest={3} />
+            {cups}
         </>
     );
 }
