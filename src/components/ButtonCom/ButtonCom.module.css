@@ -10,13 +10,12 @@ button{
 }
 
 .title{
-    color: red;
-    font-size: 20px;
+    color: blue;        
 }
 
 .navBar{
-    background-color: #333;
-    overflow: hidden;
+    padding: 15px;
+    background-color: gray;
 }
 
 .myButton{
