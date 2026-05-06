@@ -14,10 +14,10 @@ export default function ButtonCom({ message, children }) {
   )
 }*/}
 
-export default function ButtonCom({ message, handle, children }) {
+export default function ButtonCom({ message, handle, children, style }) {
   return (
     <>
-        <button onClick={ () => handle({ message })}>
+        <button onClick={ () => handle({ message })} className={style}>
             {children}
         </button>
     </>
