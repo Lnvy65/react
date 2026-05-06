@@ -1,3 +1,4 @@
+{/*
 export default function ButtonCom({ message, children }) {
 
     const handleClick = () => {
@@ -7,6 +8,16 @@ export default function ButtonCom({ message, children }) {
   return (
     <>
         <button onClick={handleClick}>
+            {children}
+        </button>
+    </>
+  )
+}*/}
+
+export default function ButtonCom({ message, handle, children, style }) {
+  return (
+    <>
+        <button onClick={ () => handle({ message })} className={style}>
             {children}
         </button>
     </>
