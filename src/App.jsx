@@ -4,6 +4,7 @@ import UseJsx from "./components/UseJsx"
 import ParentComp from "./components/ParentComp"
 import SpreadComp from "./components/SpreadComp"
 import ButtonCom from "./components/ButtonCom/ButtonCom"
+import Toolbar from "./components/ButtonCom/Toolbar"
 
 export default function App() {
   
@@ -13,7 +14,8 @@ export default function App() {
       <UseJsx />
       <ParentComp />
       <SpreadComp /> */}
-      <ButtonCom />
+      {/* <ButtonCom /> */}
+      <Toolbar />
     </>
   )
 }
