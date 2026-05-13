@@ -6,6 +6,8 @@ import SpreadComp from "./components/SpreadComp"
 import ButtonCom from "./components/ButtonCom/ButtonCom"
 import Toolbar from "./components/ButtonCom/Toolbar"
 import Bubble from "./components/Bubble"
+import Signup1 from "./components/Signup1"
+import Signup2 from "./components/Signup2"
 
 export default function App() {
   
@@ -17,7 +19,9 @@ export default function App() {
       <SpreadComp /> */}
       {/* <ButtonCom /> */}
       {/* <Toolbar /> */}
-      <Bubble />
+      {/* <Bubble /> */}
+      <Signup1 />
+      <Signup2 />
     </>
   )
 }
