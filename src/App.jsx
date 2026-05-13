@@ -5,6 +5,7 @@ import ParentComp from "./components/ParentComp"
 import SpreadComp from "./components/SpreadComp"
 import ButtonCom from "./components/ButtonCom/ButtonCom"
 import Toolbar from "./components/ButtonCom/Toolbar"
+import Bubble from "./components/Bubble"
 
 export default function App() {
   
@@ -15,7 +16,8 @@ export default function App() {
       <ParentComp />
       <SpreadComp /> */}
       {/* <ButtonCom /> */}
-      <Toolbar />
+      {/* <Toolbar /> */}
+      <Bubble />
     </>
   )
 }
