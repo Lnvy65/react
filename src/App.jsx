@@ -1,17 +1,15 @@
 //import { useState } from 'react'
 import Bubble from "./components/Bubble"
+import Signup1 from "./components/Signup1"
+import Signup2 from "./components/Signup2"
 
 export default function App() {
   
   return (
     <>
-      {/* <Profile />
-      <UseJsx />
-      <ParentComp />
-      <SpreadComp /> */}
-      {/* <ButtonCom /> */}
-      {/* <Toolbar /> */}
-      <Bubble />
+      {/* <Bubble /> */}
+      <Signup1 />
+      <Signup2 />
     </>
   )
 }
