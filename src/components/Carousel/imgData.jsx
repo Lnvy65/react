@@ -5,14 +5,14 @@ export const galleryImages = [
         name: "Slide 1",
         artist: "Artist 1",
         description: "Placeholder image for slide 1",
-        url: slides[0],
+        url: slides.bike1,
         alt: "Slide 1",
     },
     {
         name: "Slide 2",
         artist: "Artist 2",
         description: "Placeholder image for slide 2",
-        url: slides[1],
+        url: slides.bike2,
         alt: "Slide 2",
     },
     {
