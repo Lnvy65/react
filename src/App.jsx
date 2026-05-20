@@ -8,6 +8,7 @@ import Toolbar from "./components/ButtonCom/Toolbar"
 import Bubble from "./components/Bubble"
 import Signup1 from "./components/Signup1"
 import Signup2 from "./components/Signup2"
+import Carousel from "./components/Carousel/Carousel"
 
 export default function App() {
   
@@ -20,8 +21,9 @@ export default function App() {
       {/* <ButtonCom /> */}
       {/* <Toolbar /> */}
       {/* <Bubble /> */}
-      <Signup1 />
-      <Signup2 />
+      {/* <Signup1 />
+      <Signup2 /> */}
+      <Carousel />
     </>
   )
 }
