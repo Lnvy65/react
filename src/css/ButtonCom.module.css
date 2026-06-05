@@ -1,9 +1,0 @@
-.myButton{
-    background-color: gary;
-    transition: all 0.2s ease;
-}
-
-.myButton:hover{
-    background-color: lightgray;
-    transition: all 0.2s ease;
-}
