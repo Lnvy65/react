@@ -9,6 +9,7 @@ import Bubble from "./components/Bubble"
 import Signup1 from "./components/Signup1"
 import Signup2 from "./components/Signup2"
 import Carousel from "./components/Carousel/Carousel"
+import BtnClick from "./components/BtnClick"
 
 export default function App() {
   
@@ -23,7 +24,8 @@ export default function App() {
       {/* <Bubble /> */}
       {/* <Signup1 />
       <Signup2 /> */}
-      <Carousel />
+      {/* <Carousel /> */}
+      <BtnClick />
     </>
   )
 }
